@@ -1,0 +1,42 @@
+.Content {
+    flex-grow: 1;
+    display: grid;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 1rem 0px;
+}
+
+ul input {
+    background-color: whitesmoke;
+    border: none;
+    padding: 1em;
+    font-size: 1.25rem;
+}
+
+input[type="checkbox"] {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.deleteBtn {
+    padding: 0.5em;
+    font-size: 1.25rem;
+}
+
+.deleteBtn:hover {
+    background-color: rgba(231, 1, 1, 0.678);
+}
+
+.message {
+    font-size: 2rem;
+    font-weight: 600;
+}

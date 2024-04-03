@@ -1,0 +1,18 @@
+.add-form {
+    display: flex;
+    justify-content: center;
+}
+
+.add-form input {
+    font-size: 1.25rem;
+    padding: 0.5em;
+}
+
+.add-form button {
+    font-size: 1.25rem;
+    padding: 0.5em;
+}
+
+.add-form button:hover {
+    background-color: lightgreen;
+}

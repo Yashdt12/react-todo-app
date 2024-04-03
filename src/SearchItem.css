@@ -1,0 +1,9 @@
+.search-form {
+    display: flex;
+    justify-content: center;
+}
+
+.search-form input {
+    font-size: 1.25rem;
+    padding: 0.5em;
+}
