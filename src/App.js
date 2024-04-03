@@ -35,7 +35,7 @@ const handleSubmit = (e) => {
   setNewItem('');
 };
 
-  const title = "Shopping List";
+  const title = "Todo List";
 
   return (
     <div className="App">
